@@ -1,0 +1,14 @@
+{
+  "name": "robyn-visualization",
+  "version": "1.0.0",
+  "description": "Visualization UI for Robyn API",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js --open"
+  },
+  "author": "Mohamed Sadiq, Gustavo Bramao, Nilesh Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}

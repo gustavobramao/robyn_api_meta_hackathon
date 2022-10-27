@@ -1,0 +1,12 @@
+FROM trestletech/plumber
+
+RUN R -e 'install.packages(c("dplyr" , "remotes"))'
+RUN  R -e 'remotes::install_github("facebookexperimental/Robyn/R")'
+# copy everything from the current directory into the container
+COPY / /
+
+EXPOSE 30
+ENTRYPOINT ["Rscript", "main.R"]
+
+
+

@@ -1,0 +1,86 @@
+led / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.rdb
+# C extensions
+*.so
+*.idea/
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+temp.csv
+parts/
+sdist/
+var/
+.DS_Store
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+*.DS_Store
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+.DS_Store
+server_config.py
+
+*.pyc
+venv/
+local_settings.py
+mmm_data/
+temp.py
+generate_ofm_token.sh
+temp_data/
+bq_conn.json
+
+config.php
+
+helpers/google/google-ads.yaml
+cgo-datalake-marketing-pipe.json
+martech-central-group-f53922cdef9c.json
+ga_analytics_secret.json
+ga4_secret.json
+feed/
+local_variables.sh
+cron_logs/
+data_objects/
+.Rproj.user
+.RData
+.Rhistory
+robyn_api.Rproj
+
+node_modules
